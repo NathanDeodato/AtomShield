@@ -9,11 +9,15 @@ def AtomShield():
     layout = [
         [sg.Text(" " * 29), sg.Text("-> ⚛ <-"), sg.Text(" " * 29)],
         
+        [sg.Text("-" * 74)],
+
         [sg.Text("° Limpeza de memória ROM")],
         [sg.Text("° Limpeza de memória RAM")],
         [sg.Text("° Detecta arquivos maliciosos")],
         [sg.Text("° Remove malwares e ransowares")],
         [sg.Text("° Proteção ao navegar na internet")],
+
+        [sg.Text("-" * 74)],
         
         [sg.Text(" " * 25), sg.Button("ACTIVE"), sg.Text(" " * 25)],
 
@@ -33,5 +37,5 @@ while True:
 
     ## START SHIELD
     if event == "ACTIVE":
-        sg.popup("")
+        sg.popup("-> START ⚛ <-")
 
