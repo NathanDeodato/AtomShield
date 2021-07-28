@@ -1,4 +1,4 @@
-# AtomShield
+# ⚛ AtomShield
 
 ## 🗂 Project description
 
@@ -9,7 +9,7 @@
 ---
 
 ### 🖼 Image project
-![AtomShield](/Img/AtomShield-1.png)
+![AtomShield](/Img/AtomShield-2.png)
 
 ---
 
