@@ -7,9 +7,9 @@ def AtomShield():
     ## LAYOUT
     sg.theme("DarkPurple6")
     layout = [
-        [sg.Text(" " * 29), sg.Text("-> ⚛ <-"), sg.Text(" " * 29)],
+        [sg.Text(" " * 15), sg.Text("-> ⚛ <-")],
         
-        [sg.Text("-" * 74)],
+        [sg.Text("-" * 50)],
 
         [sg.Text("° Limpeza de memória ROM")],
         [sg.Text("° Limpeza de memória RAM")],
@@ -17,11 +17,11 @@ def AtomShield():
         [sg.Text("° Remove malwares e ransowares")],
         [sg.Text("° Proteção ao navegar na internet")],
 
-        [sg.Text("-" * 74)],
+        [sg.Text("-" * 50)],
         
-        [sg.Text(" " * 25), sg.Button("ACTIVE"), sg.Text(" " * 25)],
+        [sg.Text(" " * 17), sg.Button("Start")],
 
-        [sg.Text(" " * 30), sg.Text("(c) NT")]
+        [sg.Text(" " * 10), sg.Text("(c) NT Developer")]
     ]
     return sg.Window("AtomShield", layout=layout)
 
